@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32630.192
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SignupWebApi", "SignupWebApi\SignupWebApi.csproj", "{FF275D42-7FEA-4E25-BEA6-8486D60E44B0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FF275D42-7FEA-4E25-BEA6-8486D60E44B0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FF275D42-7FEA-4E25-BEA6-8486D60E44B0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FF275D42-7FEA-4E25-BEA6-8486D60E44B0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FF275D42-7FEA-4E25-BEA6-8486D60E44B0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D709950B-0210-4506-A32B-D8342BC39187}
+	EndGlobalSection
+EndGlobal
