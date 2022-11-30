@@ -1,0 +1,17 @@
+.edit{
+    width:35px;
+    height: auto;
+  }
+  .remove{
+    width:35px;
+    height: auto;
+  }
+
+  .contact-img{
+    width: 130px;
+    border-radius: 50%;
+  }
+  .addImg{
+    width: 200px;
+    border-radius: 50%;
+  }

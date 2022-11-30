@@ -1,0 +1,52 @@
+<head>
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.css">
+</head>
+<body>
+    <div id="app">
+        <h1>vueschool slots fundamental</h1>
+        <todo-item>buy fruits</todo-item>
+        <todo-item>buy chocolates</todo-item>
+        <todo-item>buy gadgets</todo-item>
+    </div>
+    <h1>profile</h1>
+   <github-user-card username="Akshay"></github-user-card>
+    <div class="ui card">
+        <div class="image">
+          <img src="./images/avatar2/large/Screenshot 2022-10-18 160144.png">
+        </div>
+        <div class="content">
+          <a class="header">Kristy</a>
+          <div class="meta">
+            <span class="date">Joined in 2013</span>
+          </div>
+          <div class="description">
+            Kristy is an art director living in New York.
+          </div>
+        </div>
+        <div class="extra content">
+          <a>
+            <i class="user icon"></i>
+            22 Friends
+          </a>
+        </div>
+      </div>
+</body>
+
+<script type="text/x-template"  id="todo-item-template">
+    <div>
+        <input type="checkbox" v-model="done">{{done}}
+        <span  :class={line:done}>
+          <slot></slot>
+        </span>
+    </div>
+</script>
+
+<style>
+    .line{
+        color:aqua;
+        text-decoration: line-through;
+    }
+</style>
+<script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+<script src="app.js"></script>
